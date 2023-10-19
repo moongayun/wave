@@ -1,0 +1,659 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'KimjungchulGothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+select * {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    list-style: none;
+    color: #333;
+}
+
+#wrap {
+    min-width: 1320px;
+    margin: 0 auto;
+}
+
+#header_wrap {
+    overflow: hidden;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    background: url(../images/icon/lineheader.png) no-repeat center bottom;
+    padding-bottom: 30px;
+
+}
+
+.inner_header {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    text-align: center;
+    /* margin-left: 9px; */
+    padding-top: 20px;
+
+}
+
+.gnb {
+    position: absolute;
+    right: 0;
+    top: 50px;
+
+}
+
+.gnb li {
+    float: left;
+    padding: 30px;
+    font-weight: bold;
+}
+
+/* slide */
+#slide {
+    height: 900px;
+    overflow: hidden;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.banner {
+
+    margin: 0px auto;
+    position: absolute;
+    left: 36px;
+    top: 200px;
+}
+
+.box1 {
+
+    height: 1082px;
+    background: url(../images/main/haepari.jpg) no-repeat center;
+    margin: auto;
+
+}
+
+.box1 p {
+    color: #fff;
+    font-size: 34px;
+}
+
+.box1 span {
+    font-weight: bold;
+}
+
+.bigtext {
+    font-family: 'KimjungchulGothic-Bold';
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 137px;
+    color: #fff;
+}
+
+.box1 p.small {
+    font-size: 27px;
+}
+
+.first {
+    margin: 0px auto;
+    width: 1040px;
+    text-align: left;
+    padding-top: 70px;
+
+}
+
+.first p {
+    color: #fff;
+    font-size: 34px;
+}
+
+.two h2 {
+    text-align: left;
+
+}
+
+.three h2 {
+    text-align: left;
+}
+
+.first span {
+    font-weight: bold;
+}
+
+.box2 {
+
+    height: 1082px;
+    background: url(../images/main/sanhocho.jpg)no-repeat center;
+    margin: auto;
+}
+
+.box2 p {
+    font-size: 34px;
+    color: #fff;
+}
+
+.box2 span {
+    font-weight: bold;
+}
+
+.textsmall {
+    padding-top: 30px;
+    color: #fff;
+    font-size: 27px;
+}
+
+.content {
+    text-align: center;
+
+}
+
+.two {
+    float: left;
+    width: 520px;
+    height: 522px;
+    background-color: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.two h3 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+}
+
+.two p a {
+    background-color: #5867EF;
+    padding: 15px 26px;
+    padding-top: 13px;
+    border-radius: 39px;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.button_wrap1 {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.button_wrap2 {
+    text-align: center;
+    margin-top: 190px;
+
+}
+
+.two h2 {
+    font-size: 39px;
+    padding-top: 10px;
+}
+
+.two h3 {
+    font-size: 26px;
+}
+
+.two p {
+    font-size: 20px;
+    color: black;
+}
+
+.three {
+    float: left;
+    width: 520px;
+    height: 522px;
+    background-color: #5867EF;
+    padding: 50px;
+    box-sizing: border-box;
+
+
+}
+
+.three p a {
+    background-color: #FFA126;
+    padding: 13px 26px;
+    border-radius: 39px;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.three h2 {
+    font-size: 39px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.three p {
+
+    font-size: 22px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.box2 {
+
+    height: 1082px;
+    margin: 0px auto;
+
+}
+
+.box2 p.textsmall {
+    font-size: 27px;
+}
+
+.first_two {
+    margin: 0px auto;
+    width: 1040px;
+
+    padding-top: 70px;
+
+}
+
+.group1 {
+    float: left;
+    width: 520px;
+    height: 522px;
+    background-color: #5867EF;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.group1 h1 {
+    font-size: 43px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.group1 p {
+    font-size: 15px;
+    padding-top: 20px;
+
+}
+
+.group1 p a {
+    background-color: #FFA126;
+    padding: 14px 25px;
+    padding-top: 13px;
+    border-radius: 39px;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.group2 {
+    float: left;
+    width: 520px;
+    height: 522px;
+    background-color: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.group2 h1 {
+    font-size: 43px;
+    color: #000000;
+    padding-top: 10px;
+
+}
+
+.group2 p {
+    font-size: 15px;
+    padding-top: 22px;
+    color: #000;
+
+}
+
+.group2 p a {
+    background-color: #5867EF;
+    padding: 15px 26px;
+    padding-top: 13px;
+    border-radius: 39px;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.Information {
+
+    background-color: #0082E6;
+    color: #fff;
+}
+
+.inner_Information {
+    width: 1320px;
+    margin: 0px auto;
+    position: relative;
+
+}
+
+.jin {
+
+    position: absolute;
+    right: -320px;
+    top: 0;
+}
+
+
+.loaction {
+    text-align: center;
+    padding-top: 121px;
+}
+
+.loa {
+    font-size: 130px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 77px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 36px;
+
+}
+
+.Information .add {
+    text-align: center;
+    font-size: 17px;
+    font-weight: lighter;
+    padding-top: 55px;
+}
+
+.Information .add_two {
+    text-align: center;
+    font-size: 21px;
+    padding-top: 27px;
+
+}
+
+.add_img {
+    text-align: center;
+    padding-top: 86px;
+}
+
+.Information.safe_logo {
+    text-align: center;
+}
+
+.safe {
+    background-color: #0082E6;
+    color: #fff;
+
+}
+
+.inner_safe {
+    width: 1320px;
+    margin: 0px auto;
+    position: relative;
+
+}
+
+.safe_logo {
+    text-align: center;
+    padding-top: 139px;
+}
+
+.heama {
+    position: absolute;
+    left: -150px;
+    padding-top: 80px;
+    padding-right: 20px;
+    top: 0;
+
+
+}
+
+.safely {
+    font-size: 131px;
+}
+
+.logoname {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 62px;
+}
+
+.safe_icon {
+    margin: 0px auto;
+    width: 1097px;
+    height: 753px;
+    padding-top: 113px;
+    background-color: #0082E6;
+}
+
+.safe_icon ul li {
+    height: 300px;
+    width: 500px;
+    padding-left: 250px;
+    padding-top: 50px;
+    font-size: 30px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+.warning {
+    font-size: 35px;
+    padding-bottom: 10px;
+
+}
+
+.icon_safe {
+    bottom: 50px;
+}
+
+
+.food {
+    background: url(../images/icon/food.png)no-repeat;
+    float: left;
+
+}
+
+.pet {
+    background: url(../images/icon/cat.png)no-repeat;
+    float: right;
+
+}
+
+.smoke {
+    background: url(../images/icon/smoke.png)no-repeat;
+    float: left;
+
+}
+
+
+.jump {
+    background: url(../images/icon/jump.png)no-repeat;
+    float: right;
+
+}
+
+.gal {
+    position: absolute;
+    right: -230px;
+    padding-top: 880px;
+    top: 0;
+
+}
+
+.last {
+    background-color: #0082E6;
+    margin: 0px auto;
+    padding-bottom: 30px;
+
+}
+
+.last p {
+    color: #fff;
+    font-family: 'LotteMartDream';
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px auto;
+    text-align: center;
+    background: url(../images/icon/line.png)no-repeat center;
+
+
+}
+
+.last_line {
+    margin: 0px auto;
+    width: 1840px;
+}
+
+.img_last {
+    margin: 0px auto;
+    width: 1320px;
+    position: relative;
+    height: 921px;
+    padding-bottom: 35px;
+
+}
+
+.click {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 100px;
+    color: #fff;
+    padding-right: 98px;
+    padding-bottom: 229px;
+}
+
+.click_lines {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 100px;
+    color: #fff;
+    padding-right: 100px;
+    padding-bottom: 175px;
+    font-weight: bold;
+}
+
+.img_last_one {
+    background-color: #0082E6;
+
+}
+
+#footer_wrap {
+    background-color: #000;
+
+}
+
+.footer {
+    margin: 0px auto;
+    width: 1100px;
+    position: relative;
+    color: #fff;
+    padding: 20px;
+    background: url(../images/logo/logo.png)no-repeat right 10px top 26px;
+    background-size: 14%;
+
+
+
+
+}
+
+.footer_gnd li {
+    margin-bottom: 10px;
+    left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    padding: 15px 30px 56px 0;
+
+}
+
+.footer_logo_two {
+    position: absolute;
+    right: 1px;
+    top: 150px;
+
+
+}
+
+.footer_logo_two li {
+    float: left;
+    padding: 6px;
+}
+
+.footer_add {
+    clear: both;
+    font-size: 14px;
+
+}
+
+.you {
+    margin-top: 4px;
+}
