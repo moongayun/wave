@@ -7,7 +7,6 @@
     font-style: normal;
 }
 
-
 body,
 p,
 h1,
@@ -223,7 +222,7 @@ body {
 .two p a {
     background-color: #5867EF;
     padding: 15px 26px;
-    padding-top: 13px;
+    padding-top: 14px;
     border-radius: 39px;
     font-size: 26px;
     font-weight: bold;
@@ -232,13 +231,13 @@ body {
 
 .button_wrap1 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 108px;
 
 }
 
 .button_wrap2 {
     text-align: center;
-    margin-top: 190px;
+    margin-top: 200px;
 
 }
 
